@@ -36,7 +36,9 @@ This lab involves the MSP432 and its eight-channel QTRX reflectance sensor array
 - Black Tape
 
 # Analysis and Results
-The robot followed the line accordingly in the presence of the Professor. All LEDs and functionalities operated correctly and the robot moved correctly according to the line maze.
+The robot followed the line accordingly in the presence of the Professor. All LEDs and functionalities operated correctly, and the robot moved correctly according to the line maze. It implements the functions from the previous motor lab but tweaked so that the robot can operate autonomously with the sensor array. At the end of the line maze which presents a T, the robot needed to turn around exactly 180 degrees and continue to operate autonomously. Robot performed its 'T' function correctly by implementing a rotation with the use of a clock delay specified in the code. 
+
+Entire operation successfully conducted using interrupts.
 
 # Known Issues or Limitations
 At certain runs the robot would misinterpret certain positions but other runs it was read correctly. Could amount to the sensitivity of the sensor array as the commands performed correct actions. Besides that, there was no other issue that I witnessed.
