@@ -11,7 +11,6 @@
  */
 
 #include "../inc/Motor.h"
-
 void Motor_Init()
 {
     // Configure the following pins as output GPIO pins: P5.4 and P5.5
@@ -115,3 +114,5 @@ void Motor_Stop()
     Timer_A0_Update_Duty_Cycle_1(0);
     Timer_A0_Update_Duty_Cycle_2(0);
 }
+
+
